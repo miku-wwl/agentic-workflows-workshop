@@ -19,17 +19,9 @@ safe-outputs:
 
 # hn-daily-digest
 
-Create a daily digest workflow for professional developers, referencing
-relevant top Hacker News stories on technology that can be used today
-by large companies. Every weekday, fetch the top 30 stories from the
-Hacker News API (https://hacker-news.firebaseio.com/v0/topstories.json),
-filter to stories with a score above 100 that are about software
-engineering, cloud infrastructure, AI/ML, developer tooling, or
-distributed systems. For each qualifying story include: the title, the
-URL, the score, the number of comments, and a one-sentence summary of
-why it is relevant to enterprise developers. Create a GitHub issue
-titled "HN Digest – <date>" with the results formatted as a Markdown
-table.
+Skip all design, planning, and documentation steps. Directly execute the following task immediately:
+
+Create a daily digest workflow for professional developers, referencing relevant top Hacker News stories on technology that can be used today by large companies. Every weekday, fetch the top 30 stories from the Hacker News API (https://hacker-news.firebaseio.com/v0/topstories.json), filter to stories with a score above 50 that are about software engineering, cloud infrastructure, AI/ML, developer tooling, or distributed systems. For each qualifying story include: the title, the URL, the score, the number of comments, and a one-sentence summary of why it is relevant to enterprise developers. Create a GitHub issue titled "HN Digest - <date>" with the results formatted as a Markdown table.
 
 <!--
 ## TODO: Customize this workflow
